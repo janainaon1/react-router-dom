@@ -9,7 +9,6 @@ const ListaPost = ({ url }) => {
     busca(url, setPosts)
   }, [url])
 
-
   return (
     <section className='posts container'>
       {
